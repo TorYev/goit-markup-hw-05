@@ -926,10 +926,11 @@ resize: none;
   letter-spacing: 0.04em; 
   color:var(--light-slate);
 }
+
 .modal-checkbox-input{
-  background-color:var(--ocean);
+  /* background-color:var(--ocean);
   border: none;
-  fill:var(--cloud)
+  fill:var(--cloud) */
 }
 
 .modal-span-checkbox{
@@ -942,6 +943,17 @@ display: inline-flex;
 align-items: center;
 justify-content: center;
 fill: transparent;
+
+}
+
+input:checked + .custom-span {
+  background-color: var(--ocean);
+  border: none;
+  fill: var(--cloud);
+}
+
+.modal-checkbox-link{
+  color:var(--iris);
 }
 
 .modal-icon-checkbox {
