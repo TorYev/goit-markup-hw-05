@@ -943,7 +943,7 @@ display: inline-flex;
 align-items: center;
 justify-content: center;
 fill: transparent;
-
+margin-right: 8px;
 }
 
 input:checked + .custom-span {
@@ -956,11 +956,11 @@ input:checked + .custom-span {
   color:var(--iris);
 }
 
-.modal-icon-checkbox {
+/* .modal-icon-checkbox {
   display: inline-block;
   width: 1em;
   height: 1em;
   stroke-width: 0;
   stroke: currentColor;
   fill: currentColor;
-}
+} */
