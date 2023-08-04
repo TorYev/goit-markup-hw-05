@@ -908,7 +908,7 @@ border: 1px solid var(--navyblue, rgba(46, 47, 66, 0.40));
 font-size: 12px; 
 line-height: 1.17; 
 letter-spacing: 0.04em;
-color: rgba(46, 47, 66, 0.4);
+color: var(--slate);
 
 padding: 8px 16px;
 transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
