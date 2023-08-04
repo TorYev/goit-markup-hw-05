@@ -74,7 +74,7 @@
       <section class="first-part section">
         <div class="container">
           <h1 class="header-top">Effective Solutions for Your Business</h1>
-          <button type="button" data-modal-open class="orders open-modal">
+          <button type="button" class="orders open-modal" data-modal-open>
             Order Service
           </button>
         </div>
@@ -504,7 +504,8 @@
         </div>
       </div>
     </footer>
-    <div class="backdrop" data-modal>
+    
+    <div class="backdrop is-hidden" data-modal>
       <div class="modal">
         <button class="close-button" type="button" data-modal-close>
           <svg class="modal-close-button" width="8" height="8">
@@ -561,7 +562,7 @@
               </svg>
             </div>
           </div>
-          <div class="modal-field">
+          <div class="modal-field modal-field-comment">
             <label for="user-comment" class="modal-label small_text"
               >Comment</label
             >
@@ -572,7 +573,7 @@
               placeholder="Text input"
             ></textarea>
           </div>
-          <div class="modal-field">
+          <div class="modal-field modal-field-checkbox">
             <input
               type="checkbox"
               id="user-privacy"
